@@ -68,7 +68,7 @@ ram.runtime = "500M"
         "imagemagick",
         "php-pear",
         "php-db",
-        "php-uploadprogress",
+        "php8.4-uploadprogress",
         "php-xmlrpc",
         "php8.4-apcu",
         "php8.4-bcmath",
@@ -87,7 +87,7 @@ ram.runtime = "500M"
         "php8.4-redis",
         "php8.4-soap",
         "php8.4-tidy",
-        "php-xmlrpc",
+        "php8.4-xmlrpc",
         "php8.4-xml",
         "php8.4-zip",
     ]
