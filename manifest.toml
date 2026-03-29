@@ -95,3 +95,6 @@ ram.runtime = "500M"
    
     [resources.database]
     type = "postgresql"
+    
+    [resources.composer]
+    version = "latest"
