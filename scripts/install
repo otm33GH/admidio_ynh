@@ -19,7 +19,7 @@ ynh_setup_source --dest_dir="$install_dir"
 #=================================================
 
 pushd "$install_dir"
-chmod -R 777 ./adm_my_files
+chmod -R 750 ./adm_my_files
 popd
 chown -R $app:$app $install_dir
 
