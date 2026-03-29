@@ -46,8 +46,8 @@ ram.runtime = "500M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/Admidio/admidio/archive/refs/tags/v5.0.8.tar.gz"
-    sha256 = "7849cedf1b3c65c74481fb62ee3bb33b1ce019976cb57ec802b42124b16da7ba"
+    url = "https://github.com/Admidio/admidio/archive/refs/tags/v5.0.8.zip"
+    sha256 = "ccfcd213ca387c9f68f8bf0231826224fe767176daa5c32ee6d68de2ba61ae4e"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
