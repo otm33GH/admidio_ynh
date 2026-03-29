@@ -22,9 +22,12 @@ ynh_setup_source --dest_dir="$install_dir"
 #=================================================
 # INSTALL COMPOSER DEPENDENCIES
 #=================================================
-ynh_script_progression "Installing composer dependencies..."
 
+ynh_script_progression "Installing composer dependencies..."
+pushd "$install_dir"
+ynh_composer_install
 ynh_composer_exec install --no-dev
+popd
 
 #=================================================
 # SET PERMISSIONS
