@@ -38,7 +38,7 @@ popd
 #popd
 
 ln -s "$data_dir" "$install_dir/adm_my_files"
-chmod 600 "$data_dir/config.php"
+
 
 
 #=================================================
