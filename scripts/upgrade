@@ -30,8 +30,7 @@ popd
 #=================================================
 ynh_script_progression "Upgrading system configurations related to $app..."
 
-ln -s "$data_dir" "$install_dir/adm_my_files"
-
+ln -s "$data_dir" "$install_dir/adm_my_files/photos"
 ynh_config_add_nginx
 
 ynh_config_add_phpfpm
