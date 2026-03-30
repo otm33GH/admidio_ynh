@@ -37,11 +37,6 @@ ram.runtime = "500M"
     type = "group"
     default = "visitors"
 
-    [install.mail_user]
-    type = "string"
-    ask.en = "Email from"
-    default = "no-reply"
-
 [resources]
     [resources.sources]
 
