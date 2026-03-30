@@ -37,6 +37,8 @@ popd
 #chmod -R 750 ./adm_my_files
 #popd
 
+ln -s "$data_dir" "$install_dir/adm_my_files"
+
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
