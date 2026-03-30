@@ -52,6 +52,7 @@ ram.runtime = "500M"
     group = "www-data:r-x"
 
     [resources.data_dir]
+    group = "www-data:rwx"
 
     [resources.permissions]
     main.url = "/"
