@@ -1,5 +1,5 @@
 ### DATABASE
-Database system: mysql-mariadb  
+Database system: Mariadb  
 Host : `localhost`  
 Database Name : `__DB_NAME__` 
 Username: `__DB_USER__` 
