@@ -1,4 +1,4 @@
-### DATABASE
+### Database settings  
 Database system: Mariadb  
 Host : `localhost`  
 Database Name : `__DB_NAME__`  
