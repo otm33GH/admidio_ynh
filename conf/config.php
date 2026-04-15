@@ -25,7 +25,7 @@ $g_tbl_praefix = 'adm';
 
 // URL to this Admidio installation
 // Example: 'https://www.admidio.org/example'
-$g_root_path = 'https://__DOMAIN____PATH__;
+$g_root_path = 'https://__DOMAIN____PATH__';
 
 // The name of the timezone in which your organization is located.
 // This must be one of the strings that are defined here https://www.php.net/manual/en/timezones.php
