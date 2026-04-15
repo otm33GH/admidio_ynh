@@ -52,6 +52,7 @@ ynh_config_add_logrotate
 #=================================================
 ynh_script_progression "Setting up application with CURL..."
 
+ynh_local_curl "/install/installation.php??step=welcome&mode=check" "adm_system_language=$LANG"
 ynh_local_curl "/install/installation.php?step=connect_database"
     "adm_db_type=mariadb" \
     "adm_db_host=localhost" \
