@@ -92,6 +92,8 @@ ram.runtime = "200M"
         "php8.4-xmlrpc",
         "php8.4-xml",
         "php8.4-zip",
+        "php8.4-mysql",
+        
     ]
    
     [resources.database]
