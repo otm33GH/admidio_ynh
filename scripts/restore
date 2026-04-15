@@ -38,6 +38,7 @@ ynh_restore "/etc/logrotate.d/$app"
 
 # ynh_config_add_phpfpm
 #ln -s "$data_dir" "$install_dir/adm_my_files/photos"
+ynh_systemctl --service="php$php_version-fpm" --action=reload
 
 #=================================================
 # RELOAD NGINX 
@@ -45,7 +46,6 @@ ynh_restore "/etc/logrotate.d/$app"
 ynh_script_progression "Reloading NGINX web server and $app's service..."
 
 ynh_systemctl --service=nginx --action=reload
-ynh_systemctl --service="php$php_version-fpm" --action=reload
 
 #=================================================
 # END OF SCRIPT
