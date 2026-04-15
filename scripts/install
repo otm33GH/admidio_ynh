@@ -48,22 +48,6 @@ ynh_config_add_phpfpm
 ynh_config_add_logrotate
 
 #=================================================
-# SETUP APPLICATION WITH CURL
-#=================================================
-ynh_script_progression "Setting up application with CURL..."
-
-ynh_local_curl "/install/installation.php?step=welcome&mode=check" "adm_system_language=$LANG"
-ynh_local_curl "/install/installation.php?step=connect_database&mode=check" \
-    "adm_db_type=mariadb" \
-    "adm_db_host=localhost" \
-    "adm_db_port=3308" \
-    "adm_db_name=$db_name" \
-    "adm_db_username=$db_user" \
-    "adm_db_password=$db_pwd" \
-    "adm_table_prefix=adm"
-
-
-#=================================================
 # END OF SCRIPT
 #=================================================
 
