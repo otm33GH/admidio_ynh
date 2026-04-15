@@ -53,6 +53,7 @@ ram.runtime = "200M"
 
     [resources.data_dir]
     group = "www-data:rwx"
+    subdirs = ["photos", "documents"]
 
     [resources.permissions]
     main.url = "/"
