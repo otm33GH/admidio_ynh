@@ -6,7 +6,6 @@
 
 source /usr/share/yunohost/helpers
 
-
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
