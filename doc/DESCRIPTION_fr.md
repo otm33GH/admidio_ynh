@@ -1,3 +1,1 @@
-What is Admidio and who can use it?
-
-Admidio is a free online membership management, which is optimized for associations, groups and organizations. In addition to classic user management it consists of a variety of modules that can be installed and adjusted on a new or existing homepage.
+Admidio est une application de gestion d'associations, de groupes ou d'organisations. Ses fonctions classiques de gestion des utilisateurs et des actifs peuvent être complétées par différents modules.
