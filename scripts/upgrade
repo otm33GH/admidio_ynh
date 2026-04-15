@@ -12,7 +12,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="adm_my_files adm_plugins themes"
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="adm_my_files/photos adm_plugins themes"
 
 
 #=================================================
@@ -30,7 +30,7 @@ popd
 #=================================================
 ynh_script_progression "Upgrading system configurations related to $app..."
 
-ln -s "$data_dir" "$install_dir/adm_my_files/photos"
+#ln -s "$data_dir" "$install_dir/adm_my_files/photos"
 ynh_config_add_nginx
 
 ynh_config_add_phpfpm
