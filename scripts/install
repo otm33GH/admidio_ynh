@@ -29,6 +29,8 @@ pushd "$install_dir"
 ynh_composer_exec install --no-dev
 popd
 
+ynh_config_add --template="config.php" --destination="$install_dir/adm_my_files/config.php"
+
 #=================================================
 # SET PERMISSIONS
 #================================================
