@@ -13,6 +13,7 @@ ynh_script_progression "Updating NGINX web server configuration..."
 
 # this will most likely adjust NGINX config correctly
 ynh_config_change_url_nginx
+ynh_config_add --template="config.php" --destination="$install_dir/adm_my_files/config.php"
 
 #=================================================
 # SPECIFIC MODIFICATIONS
