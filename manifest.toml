@@ -26,13 +26,17 @@ ldap = false
 sso = false
 
 disk = "200M"
-ram.build = "500M"
-ram.runtime = "500M"
+ram.build = "300M"
+ram.runtime = "200M"
 
 [install]
     [install.domain]
     type = "domain"
 
+    [install.path]
+    type = "path"
+    default = "/admidio"
+    
     [install.init_main_permission]
     type = "group"
     default = "visitors"
@@ -53,6 +57,7 @@ ram.runtime = "500M"
 
     [resources.data_dir]
     group = "www-data:rwx"
+    subdirs = ["photos", "documents"]
 
     [resources.permissions]
     main.url = "/"
@@ -80,13 +85,14 @@ ram.runtime = "500M"
         "php8.4-intl",
         "php8.4-ldap",
         "php8.4-mbstring",
-        "php8.4-pgsql",
         "php8.4-redis",
         "php8.4-soap",
         "php8.4-tidy",
         "php8.4-xmlrpc",
         "php8.4-xml",
         "php8.4-zip",
+        "php8.4-mysql",
+        
     ]
    
     [resources.database]

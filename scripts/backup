@@ -15,6 +15,12 @@ ynh_print_info "Declaring files to be backed up..."
 ynh_backup "$install_dir"
 
 #=================================================
+# BACKUP THE DATA DIR
+#=================================================
+
+ynh_backup "$data_dir"
+
+#=================================================
 # BACKUP THE DATABASE
 #=================================================
 
@@ -30,7 +36,6 @@ ynh_backup "/etc/php/$php_version/fpm/pool.d/$app.conf"
 
 # Backup the logrotate configuration
 ynh_backup "/etc/logrotate.d/$app"
-ynh_backup "/var/log/$app/$app.log"
 
 #=================================================
 # END OF SCRIPT
