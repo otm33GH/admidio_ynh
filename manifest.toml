@@ -47,7 +47,7 @@ ram.runtime = "200M"
     [resources.sources.main]
     url = "https://github.com/Admidio/admidio/archive/refs/tags/v5.0.8.zip"
     sha256 = "ccfcd213ca387c9f68f8bf0231826224fe767176daa5c32ee6d68de2ba61ae4e"
-    autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
 	allow_email = true
